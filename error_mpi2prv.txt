@@ -1,0 +1,26 @@
+(base) trochana@x3002c0s9b0n0:~/hoomd-benchmarks/run/profiling/hoomd-profiling> mpi2prv -f TRACE.mpits -o hoomd-2node.prv
+merger: Output trace format is: Paraver
+merger: Extrae 4.2.1
+mpi2prv: Assigned nodes < x3002c0s9b0n0 >
+mpi2prv: Assigned size per processor < <1 Mbyte >
+mpi2prv: File set-0/TRACE@x1001c0s7b0n1.0000120928000090000000.mpit is object 1.91.1 on node x1001c0s7b0n1 assigned to processor 0
+mpi2prv: Time synchronization has been turned off
+mpi2prv: Checking for target directory existence... exists, ok!
+mpi2prv: Selected output trace format is Paraver
+mpi2prv: Stored trace format is Paraver
+mpi2prv: Enabling Time Synchronization (Node).
+WARNING: TimeSync_CalculateLatencies: Task 0 was not initialized. Synchronization disabled!
+mpi2prv: Circular buffer enabled at tracing time? NO
+mpi2prv: Parsing intermediate files
+mpi2prv: Progress 1 of 2 ... 9% 18% 27% 36% 45% 54% 63% 72% 81% 90% 100% done
+mpi2prv: Processor 0 succeeded to translate its assigned files
+mpi2prv: Elapsed time translating files: 0 hours 0 minutes 0 seconds
+mpi2prv: Elapsed time sorting addresses: 0 hours 0 minutes 0 seconds
+mpi2prv: Generating tracefile (intermediate buffers of 6710784 events)
+         This process can take a while. Please, be patient.
+mpi2prv: Progress 2 of 2 ... 14% 28% 42% 57% 71% 85% 100% done
+mpi2prv: Elapsed time merge step: 0 hours 0 minutes 0 seconds
+mpi2prv: Resulting tracefile occupies 698 bytes
+mpi2prv: Removing temporal files... done
+mpi2prv: Elapsed time removing temporal files: 0 hours 0 minutes 0 seconds
+Segmentation fault (core dumped)
